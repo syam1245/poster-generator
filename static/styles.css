@@ -1,0 +1,57 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #4d4d4d;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select, input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDggMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEgMTFDMCAxMSAzLjU2MjUgOS41N6I1IDAgMTAuMjQzNyA2IDE1IDQuNzU1IDE1IDMgMy41IDExIDMgOCA4IDMgMSAxMC4yNDM3IDEgMTUgNC43NTUgMTUgMy41IDExIDMgOCA4IDMgMSAxMC4yNDM3IDEgMTUgNC43NTUgMTUgM0EgMEMgMCAxLjU2MjUgMSAzIDMgMCAwIDAtLjU2MjUtMS0xLTENCIiBmaWxsPSIjY2M/Pg==);
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+    background-size: 8px 12px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 0.5em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Laptop Details Generator</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+
+
+</head>
+<body>
+    <h1>Laptop Details Generator</h1>
+    <form action="/generate_pdf" method="post">
+        <label for="brand">Brand:</label>
+        <select name="brand" required>
+            <option value="HP">HP</option>
+            <option value="DELL">DELL</option>
+            <option value="ASUS">ASUS</option>
+            <option value="LENOVO">LENOVO</option>
+        </select><br>
+        <label for="model">Model:</label>
+        <input type="text" name="model" required><br>
+        <label for="ram">RAM:</label>
+        <select name="ram" required>
+            <option value="4GB">4GB</option>
+            <option value="8GB">8GB</option>
+            <option value="16GB">16GB</option>
+        </select><br>
+        <label for="storage">Storage:</label>
+        <select name="storage" required>
+            <option value="256GB">256GB</option>
+            <option value="512GB">512GB</option>
+            <option value="1TB">1TB</option>
+        </select><br>
+        <label for="mrp">MRP:</label>
+        <input type="text" name="mrp" required><br>
+        <label for="offer_price">Offer Price:</label>
+        <input type="text" name="offer_price" required><br>
+        <label for="additional_offers">Additional Offers:</label>
+        <input type="text" name="additional_offers" required><br>
+        <button type="submit">Generate PDF</button>
+    </form>
+</body>
+</html>
